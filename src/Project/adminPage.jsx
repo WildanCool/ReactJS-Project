@@ -27,6 +27,13 @@ const AdminPage = () => {
           >
             Update Account?
           </Link>
+          <Link
+            to="/product"
+            className="text-sm text-blue-500 block text-center mt-2"
+          >
+            Back to Home
+          </Link>
+         
         </div>
       </div>
     </div>

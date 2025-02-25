@@ -129,7 +129,7 @@ function ProductList() {
               >
                 ${product.price}
               </p>
-              <div className="flex items-center mt-4">
+              <div className="flex items-center mt-12">
                 <img
                   src={getStarImage(product.rating?.rate)}
                   alt="Rating Star"

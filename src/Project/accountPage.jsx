@@ -29,10 +29,10 @@ const AccountPage = () => {
       <div className="flex justify-between items-center mb-6">
         <h1 className="text-2xl font-bold">User List</h1>
         <Link
-          to="/"
+          to="/onlyAdmin"
           className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition"
         >
-          Back to Login
+          Back to Admin Page
         </Link>
       </div>
 

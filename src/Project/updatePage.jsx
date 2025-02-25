@@ -43,7 +43,9 @@ const UpdateAccountPage = () => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100 p-4">
       <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
-        <h1 className="text-2xl font-bold text-gray-700 text-center mb-4">Update Account</h1>
+        <h1 className="text-2xl font-bold text-gray-700 text-center mb-4">
+          Update Account
+        </h1>
         <form onSubmit={handleUpdateUser} className="flex flex-col gap-4">
           <div>
             <label className="block text-gray-600 font-medium">User ID</label>
@@ -105,7 +107,11 @@ const UpdateAccountPage = () => {
           </button>
 
           {message && (
-            <p className={`text-center mt-2 ${isSuccess ? "text-green-600" : "text-red-500"}`}>
+            <p
+              className={`text-center mt-2 ${
+                isSuccess ? "text-green-600" : "text-red-500"
+              }`}
+            >
               {message}
             </p>
           )}
@@ -113,10 +119,10 @@ const UpdateAccountPage = () => {
 
         <div className="text-center mt-4">
           <Link
-            to="/"
-            className="text-blue-500 hover:underline"
+            to="/onlyAdmin"
+            className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition"
           >
-            Back to Login
+            Back to Admin Page
           </Link>
         </div>
       </div>
