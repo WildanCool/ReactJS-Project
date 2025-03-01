@@ -69,10 +69,10 @@ function ProductDetail() {
   };
 
   if (!product)
-    return <div className="text-center text-lg text-gray-600">Loading...</div>;
+    return <div className="text-center text-lg text-gray-600 font-montserrat">Loading...</div>;
 
   return (
-    <div className="min-h-screen flex flex-col bg-gray-100">
+    <div className="min-h-screen flex flex-col bg-gray-100 font-montserrat">
       <nav className="bg-[#006EA5] px-7 py-4 text-white flex flex-wrap justify-between items-center">
         <div className="w-1/3 min-w-[100px]">
           <img src={urotraman} alt="UROTRAMAN" className="w-full max-w-[150px]" />

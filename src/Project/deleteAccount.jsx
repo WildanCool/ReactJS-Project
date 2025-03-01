@@ -21,7 +21,7 @@ const DeleteAccountPage = () => {
   };
 
   return (
-    <div className="max-w-lg mx-auto p-6 bg-white shadow-lg rounded-lg">
+    <div className="max-w-lg mx-auto p-6 bg-white shadow-lg rounded-lg font-montserrat">
       <div className="flex justify-between items-center mb-6">
         <h1 className="text-2xl font-bold text-gray-700">Update User</h1>
         <Link

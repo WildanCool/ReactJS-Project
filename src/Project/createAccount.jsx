@@ -48,7 +48,7 @@ const CreateAccountPage = () => {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-100">
+    <div className="flex justify-center items-center min-h-screen bg-gray-100 font-montserrat">
       <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
         <h2 className="text-2xl font-bold text-center mb-6">Create Account</h2>
         <form onSubmit={handleCreateUser} className="flex flex-col space-y-4">
@@ -86,7 +86,7 @@ const CreateAccountPage = () => {
             Create User
           </button>
         </form>
-        {message && <p className="text-center text-red-500 mt-4">{message}</p>}
+        {message && <p className="text-center text-green-500 mt-4">{message}</p>}
         <div className="text-center mt-4">
           <Link to="/" className="text-blue-500 hover:underline">Back To Login</Link>
         </div>

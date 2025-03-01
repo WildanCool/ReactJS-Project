@@ -60,7 +60,7 @@ function ProductList() {
   };
 
   return (
-    <div className="bg-[#E2F8FF] min-h-screen">
+    <div className="bg-[#E2F8FF] min-h-screen font-montserrat">
       <nav className="bg-[#006EA5] px-7 py-4 text-white flex justify-between items-center">
         <div className="w-1/3">
           <img src={urotraman} alt="UROTRAMAN" />
